@@ -1,0 +1,24 @@
+{
+  "name": "nuxt-example",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "dev:host": "nuxt --hostname '0' --port 8000"
+  },
+  "dependencies": {
+    "core-js": "^3.19.3",
+    "nuxt": "^2.15.8",
+    "vee-validate": "^2.2.15",
+    "vue": "^2.6.14",
+    "vue-input-tag": "^2.0.7",
+    "vue-server-renderer": "^2.6.14",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^4.46.0",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {}
+}
